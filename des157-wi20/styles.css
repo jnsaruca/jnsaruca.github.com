@@ -1,0 +1,141 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color:#333;
+	background-color: whitesmoke;
+}
+
+.container {
+	background-color: whitesmoke;
+	display: flex;
+	width: 800px;
+}
+
+header {
+	margin: auto;
+	background-color: white;
+	width: 800px;
+	text-align: left;
+	margin-bottom: 20px;
+	padding: 0 0 10px;
+}
+
+.wrapper {
+    width: 50%;
+    margin: auto;
+}
+
+.studios {
+	background-color: white;
+	margin-right:5px;
+	margin-bottom: 10px;
+}
+
+.research {
+	background-color: white;
+	margin-right:5px;
+	margin-bottom: 10px;
+}
+
+.assignments {
+	background-color: white;
+	margin-bottom: 10px;
+}
+
+
+.studios, .research, .assignments  {
+	flex: 1;
+}
+
+footer {
+	position: fixed;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+	background-color: #BFDEFF;
+	text-align: center;
+	color: white;
+	font-style: Arial;
+	font-size: 14px;
+	padding: 5px;
+
+}
+
+#mySketch {
+	margin-top: 10px;
+	width: 800px;
+	height: 250px;
+	background-color: #BFDEFF;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	}
+
+h1, h2, h3 {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #4E4D5C;
+}
+
+h1 {
+	text-align: left;
+	font-size: 30px;
+	margin-bottom: 20px;
+	margin-left: 40px;
+}
+
+h2 {
+	margin-top: 20px;
+	font-size: 20px;
+	margin-bottom: .5em;	
+	padding:  0 2em 0 2em;
+}
+
+p {
+	line-height: 2em;
+	margin: 0 0 1em 0;
+}
+
+a {
+	font-weight: 600;
+	color: #666A86;
+	font-family: 'Nunito', sans-serif;
+	text-decoration: none;
+	line-height: 2em;
+	margin-bottom: 50px;
+}
+
+nav ul li a:hover {
+	color: whitesmoke;
+	background: #666A86;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+#bottom .container {
+	flex-wrap: nowrap;
+}
+
+#bottom .container article {
+	flex: 1;
+	margin-right: 20px;
+}
+
+#bottom .container article:last-of-type {
+	margin-right: 0;
+}
+
+figure {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+nav {
+	margin-bottom: 20px;
+}
