@@ -1,0 +1,76 @@
+<!doctype html> 
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>HTML Basic Homework</title>
+        <link href= "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Zilla+Slab&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1>HTML and CSS Refresher<br>Challenges</h1>
+        </header>
+
+        <nav>
+			<ul>
+				<li><a href="#structure">Structure, Phrasing and Display</a></li>
+				<li><a href="#boxmodel">Box Model</a></li>
+				<li><a href="#background">Background Images</a></li>
+			</ul>
+		</nav>
+
+        <main>
+            <section id="structure"></section>
+            <article>
+                <h2>Structure, Phrasing and Display</h2>
+                <p>
+                Structural Block elements begins a new line on the webpage. Block 
+                elements extend the width even further than the maximum capacity
+                of parent elements. It is used for large content such as paragraphs
+                and page divisions. It is used within the body of the HTML code. It 
+                can consists of other block-level elements or inline elements.
+
+                A phrasing inline element on the other hand, does not start a new line.
+                It begins in a line and width is only allowed by what is defined by tags.
+
+                The different settings of the display property in CSS are the inline,
+                block, contents, flex, grid, inline-block and a lot more. With Inline, it
+                displays an element as an inline. In Block, it starts as a new line and
+                occupies a whole width. In contents, the elements gets a next level up
+                because it makes the container disappear. In flex, it displays the element
+                as a block-level flex container. In grid, it displays the element as a 
+                block-level grid container.
+                </p>
+            </article>
+
+            <section id="boxmodel"></section>
+            <article>
+                <h2>Box Model</h2>
+                <p>
+                    CSS treats each element as a box with properties that declares their appearance onthe page. This box model helps with creating default layout scheme. The Box Model consists of margins, borders, padding. In the padding area extends the content area into the element to add padding and it showcase padding dimensions. In border area, it extends the padding area body adding borders. In margin area, it extends the border with an empty area that separates the elements by each other. Box-sizing property allows adding padding and borders in the total width and height of the element. It calculates the height and width of an element.
+                </p>
+                <img  src="images/boxmodel.jpg" alt="Box Model photo" width="600" height="471">
+            </article>
+
+            <section id="background"></section>
+            <article class="background">
+                <h2 class="title">Background Images</h2>
+                <p class="text">
+                    We use IMG if we want to include the image as a default and to have semantic meaning. In IMG we rely on the browser to showcase the scale of the proportions of the size of texts. In CSS Background-images, we use them if the images are not included in the content. We use this if we don't want to make the image as a default and if we need only a portion of an image to be visible or fill the entire window as a background.
+                </p>
+            </article>
+        </main>
+
+        <footer>
+            <p>Page by Justine Saruca</p>
+            <p>HTML checked by Partners: Brianna Omori, Nehal Jain</p>
+            <p>
+                <a href="http://validator.w3.org/check?uri=referer">Valid HTML</a>
+            </p>
+        </footer>
+
+    </body>
+</html>

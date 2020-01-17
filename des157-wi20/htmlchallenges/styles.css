@@ -1,0 +1,109 @@
+body {
+    background: #F9FBF2;
+}
+
+header {
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    color: #2C2C54;
+    font-family: 'Zilla Slab', serif;
+    font-weight: bold;
+    font-size: 20px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,214,233,1) 100%);
+}
+
+nav {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    background-clip: padding-box;
+    background: #9DD1F1;
+    margin-bottom:0px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;  
+}
+
+nav ul li {
+    list-style: none;
+    text-align: center;
+    font-family: 'Zilla Slab', serif;
+    font-weight: medium;
+    line-height: 1.3em;
+    font-size: 24px;
+}
+
+nav ul li a {
+    color: #2C2C54;
+    text-decoration: none;
+}
+
+a:hover {
+    background:  #F9FBF2;
+    font-weight: bold;
+}
+
+main {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    background: #E1F2FE;
+    background-clip: padding-box;
+}
+
+h2 {
+    text-align: left;
+    color: #2C2C54;
+    font-family: 'Zilla Slab', serif;
+    font-weight: bold;
+    line-height: 1.6em;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+p{
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    color: #171219;
+    line-height: 1.3em;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+footer p{
+    text-align: center;
+    color: #D81E5B;
+    padding: 10px;
+    margin: auto;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,214,233,1) 100%);
+    width: 50%;
+}
+
+.background {
+    background-image: url("images/Waves.jpeg");
+    background-size:cover; 
+}
+
+.background {
+    background-image: url("images/Waves.jpeg");
+    background-size:cover; 
+}
+
+.title, .text {
+    color: white;
+    background-color: rgba(1, 1, 1, 0.3);
+}
