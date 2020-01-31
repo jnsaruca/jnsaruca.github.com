@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Function Experimentation"</title>
+    <h1>JS Function Experimentation</h1>
+</head>
+<body>
+    <script>
+        //1. Write two or three functions that work together to produce some output in the console.
+        var insertName = prompt('What is your name?',''); //2. Use the prompt() method to get user input.
+        var prizes = ['new clothing', 'a car', 'shoes', 'a house', 'a million dollars']; //3. Use variables and arrays.
+
+        function hello(name){
+          var greetings;
+          if ( name==null || name=='' ){ //4. Use flow control structures
+            greetings = "You didn't give me your name!"; 
+          } else {
+            greetings = `Hello ${name}, and welcome!`;
+          }
+          return greetings; //7.Have at least one function return data that is used by another function.
+        }
+
+        function luckyWinner( min, max ){
+            return Math.floor( (max - min + 1) * Math.random() ) + min; //5. Uses Math.random() to generate some randomness to the results.
+        }
+        console.log( `Hello ${insertName}, you get ${prizes[ luckyWinner(0,prizes.length-1) ]}!` );
+        luckyWinner(5,10);
+
+
+        //6.Use the parseInt() method.
+        var luckyNumber = prompt('What is your lucky number?', '');
+        
+        function lottery(number){
+        var valueCheck;
+        if( parseInt(luckyNumber) ){
+            valueCheck = console.log("you have an integer");
+        } else { 
+            valueCheck = console.log("you don't have an integer"); 
+        }
+        return valueCheck; //7.Have at least one function return data that is used by another function.
+        }
+        lottery(luckyNumber);
+
+
+        function winner(name){
+          if ( valueCheck == "you have an integer" ){
+            console.log(`Congratulations ${insertName}, you won!`); 
+          } else {
+            console.log(`Sorry ${insertName}, you lost :(`); 
+          }
+        }
+    </script>
+</body>
+</html>
