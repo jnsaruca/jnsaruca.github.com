@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    </style>
+</head>
+<body>
+    <div class = "left">
+        <h1 class = "title">Ze Mad Libs</h1>
+        <form id="myform" class = "form">
+            <input type="text" placeholder="noun" id="noun1">
+            <input type="text" placeholder="noun" id="noun2"> <br>
+            <input type="text" placeholder="adjective" id="adjective">
+            <input type="text" placeholder="verb" id="verb">
+            <input type="text" placeholder="adverb" id="adverb">
+            <br/>
+            <br/>
+            <input type="submit" value="See Mad Lib!">
+
+        </form>
+    </div>
+
+    <div class="invisible" id="madlib">
+        <p>Madlib will go here! The class is set initially to invisible, which is set in the styles above to display: none. When the mad lib is submitted, this class is swapped. You could change the styling a lot. Add a css transition to have the mad lib fade in, or fly in or have some other effect.
+        </p>
+    </div>
+
+    <script src = "script.js">
+    </script>
+
+</body>
+</html>
