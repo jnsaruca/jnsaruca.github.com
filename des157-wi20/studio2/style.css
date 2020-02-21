@@ -13,6 +13,8 @@ body {
 
 .title {
     margin-top: 30px;
+    font-size: 50pt;
+    font-weight: lighter;
 }
 
 .title, .subtitle {
