@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background: linear-gradient(360deg, #cefdfc, #acdeea, #96e1f2, #98ddf2);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    font-family: 'Rubik';
+}
+
+.title {
+    margin-top: 30px;
+}
+
+.title, .subtitle {
+    text-align: center;
+    color: #ffffff;
+}
+
+.subtitle {
+    margin-top:2%;
+}
+.container {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.caption {
+    display: none;
+    width: 30%;
+    transform: translateX(70%);
+    text-align: left;
+    background-color: #ffffff;
+    padding: 5%;
+    border-radius: 1.0em;
+    color: #465d71;
+}
+
+.backpack {
+    width: 20%;
+    margin: 1% 0;
+}
+
+.items {
+    list-style: none;
+    display: flex;
+}
+
+.items img {
+    width: 30%;
+}
+
+.bottle img {
+    transform: rotate(-20deg);
+}
+
+
+.notebook img {
+    transform: rotate(40deg);
+}
+
+.bottle img:hover {
+    animation: wobble 0.5s ease-out alternate infinite;
+}
+
+.phone img:hover {
+    animation: wobble 0.5s ease-out alternate infinite;
+}
+
+
+.notebook img:hover {
+    animation: wobble 0.5s ease-out alternate infinite;
+}
+
+@keyframes wobble {
+    0% {
+        transform: rotate(-20deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(20deg);
+    }
+}
