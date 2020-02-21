@@ -1,10 +1,13 @@
-body {
-    margin: 0;
-    font-family: Helvetica, sans-serif;
+html {
     background: linear-gradient(360deg, #cefdfc, #acdeea, #96e1f2, #98ddf2);
     background-repeat: no-repeat;
     height: 100%;
     background-size: cover;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
     font-family: 'Rubik';
 }
 
