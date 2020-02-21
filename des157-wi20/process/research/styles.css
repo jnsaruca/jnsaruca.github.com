@@ -83,6 +83,7 @@ h1, h2, h3 {
 h1 {
 	text-align: left;
 	font-size: 30px;
+	margin-top: 50px;
 	margin-bottom: 20px;
 	margin-left: 0px;
 }
