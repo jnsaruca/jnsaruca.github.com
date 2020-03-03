@@ -13,6 +13,7 @@ iframe {
 	background-color: whitesmoke;
 	display: flex;
 	width: 800px;
+	height: 1000px;
 }
 
 header {
