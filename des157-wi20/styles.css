@@ -9,6 +9,8 @@ body {
 	background-color: whitesmoke;
 	display: flex;
 	width: 800px;
+	height: 400px;
+	margin-bottom: 80px;
 }
 
 header {
@@ -48,7 +50,7 @@ header {
 }
 
 footer {
-	position: fixed;
+	position: fixed; 
   	left: 0;
   	bottom: 0;
   	width: 100%;
