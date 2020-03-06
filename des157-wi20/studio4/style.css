@@ -1,0 +1,94 @@
+html {
+    background: linear-gradient(180deg, #F4E2D0, #FCE2C8, #F5D6B8, #F4B474);
+    background-repeat: repeat;
+    height: 100%;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.title {
+    margin-top: 30px;
+    font-size: 50pt;
+    font-weight: lighter;
+}
+
+.title {
+    text-align: center;
+    color: #C6754F;
+}
+
+.subtitle {
+    margin-top:2%;
+    text-align: center;
+    color: #935F47;
+    font-style: italic;
+}
+.container {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.caption {
+    display: none;
+    width: 30%;
+    transform: translateX(70%);
+    text-align: left;
+    background-color: #ffffff;
+    padding: 5%;
+    border-radius: 1.0em;
+    color: #465D71;
+}
+
+.backpack {
+    width: 20%;
+    margin: 1% 0;
+}
+
+.items {
+    list-style: none;
+    display: flex;
+}
+
+.items img {
+    width: 30%;
+}
+
+.bottle img {
+    transform: rotate(-20deg);
+}
+
+
+.notebook img {
+    transform: rotate(40deg);
+}
+
+.bottle img:hover {
+    animation: wobble 0.5s ease-out alternate infinite;
+}
+
+.phone img:hover {
+    animation: wobble 0.5s ease-out alternate infinite;
+}
+
+
+.notebook img:hover {
+    animation: wobble 0.5s ease-out alternate infinite;
+}
+
+@keyframes wobble {
+    0% {
+        transform: rotate(-20deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(20deg);
+    }
+}
