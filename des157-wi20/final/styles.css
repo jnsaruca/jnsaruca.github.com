@@ -1,0 +1,282 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    position: relative;
+    font-family: 'Nunito', Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+nav {
+    padding: 0.5% 0;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.img_container {
+    width: 30%;
+}
+
+.nav_logo {
+    display: inline-block;
+    width: 40%;
+    line-height: 10;
+    margin-left: 2%;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a {
+    display: block;
+    color: #f47f4b;
+    text-decoration: none;
+}
+
+.nav_items {
+    line-height: 4;
+    float: right;
+    padding-right: 1%;
+    overflow: hidden;
+}
+
+.hero_container {
+    background-color: #5c4f4d;
+    width: 100%;
+    height: 700px;
+    background-image: url("./images/home_bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero_copy {
+    color: #ffffff;
+    position: absolute;
+    top: 10%;
+    padding: 3%;
+}
+
+.featured {
+    display: inline-block;
+    border-bottom: 2px solid #ffffff;
+    
+}
+
+.description {
+    font-size: 1.5em;
+    width: 60%;
+    font-weight: 200;
+}
+
+
+.hero_copy .see_campaign {
+    font-size: 1.0em;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+}
+.see_more {
+    text-align: center;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffffff;
+}
+
+.img {
+    width: 15px;
+    height: 15px;
+    border-radius: 1.0em;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    display: inline-block;
+    margin: 5% 2%;
+}
+
+.img:nth-child(1) {
+    margin-left: 0;
+    background-color: #ffffff;
+}
+
+.fadein {
+    animation: gallery_transition 0.5s;
+}
+
+
+.main_content {
+    background-image: url("./images/background.svg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: repeat-y;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.write_container {
+    position: relative;
+    margin-top: 70%;
+    margin-left: 30%;
+}
+
+
+
+
+.write_board {
+    width: 300px;
+}
+
+.selection1 {
+    width: 300px;
+}
+
+
+.write_pencil {
+    width: 45%;
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform-origin: 0 100%;
+}
+
+
+
+.desc_container {
+    width: 37%;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    margin-left: 10%;
+    bottom: 300px;
+    margin-top: 10%;
+}
+
+
+.desc_container h1 {
+    color: #CD8562;
+}
+
+.desc_container p {
+    text-align: left;
+    color: #935F47;
+    
+}
+
+.box_and_stuff {
+    text-align: center;
+    list-style: none;
+    
+}
+
+.box {
+    position: absolute;
+    width: 256px;
+    height: 256px;
+}
+
+.img_box_item:not(.box) {
+    width: 128px;
+    height: 128px;
+}
+
+.contribute_donate {
+    background-color:#F7EBDF;
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contribute_donate img {
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+}
+
+.contribute_donate img:hover {
+    width: 350px;
+    height: 350px;
+}
+
+footer{
+    text-align: center;
+    color: #935F47;
+    display: block;
+    margin: 0;
+    background-color: #F7EBDF;
+    padding: 2% 0;
+}
+
+footer img{
+    display: inline-block;
+    width: 200px;
+}
+
+footer h1{
+    font-size: 20px;
+}
+
+footer h2{
+    font-size: 15px;
+}
+
+footer h1, footer h2 {
+    margin: 0;
+}
+
+
+@keyframes gallery_transition {
+    0% {
+        opacity: 1.0;
+    }
+
+    
+    50% {
+        opacity: 0;
+        
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+@keyframes pencilAnimation {
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(-22deg) translate(10px, 5px);
+    }
+
+    100% {
+        transform: rotate(22) translateX(-10px, 10px);
+    }
+}
+
+@keyframes box_bounce {
+    0% {
+        width: 300px;
+        height: 300px;
+    }
+
+    100% {
+        width: 500px;
+        height: 500px;
+    }
+}
